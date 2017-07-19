@@ -1,0 +1,26 @@
+
+
+.col{
+  width: 100px;
+  height: 100px;
+  margin-left: 20px;
+  float: left;
+}
+.colTitle{
+  float:left;
+  width: 500px;
+  height: 100px;
+  text-align: center;
+  margin-left: 30px;
+
+
+}
+.row1{
+  width: 21cm;
+  height: 5cm;
+  margin: auto;
+
+}
+#btnPrint{
+  position:fixed;
+}

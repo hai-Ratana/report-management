@@ -1,0 +1,178 @@
+
+.panel-blue { background: #30a5ff; color: #fff; }
+.panel-teal { background: #1ebfae; color: #fff; }
+.panel-orange { background: #ffb53e; color: #fff; }
+.panel-red { background: #f9243f; color: #fff; }
+
+.panel-blue .panel-body p,
+.panel-teal .panel-body p,
+.panel-orange .panel-body p,
+.panel-red .panel-body p { 
+	color: #fff; 
+	color: rgba(255, 255, 255, .8);
+}
+
+.panel-blue .panel-heading,
+.panel-teal .panel-heading,
+.panel-orange .panel-heading,
+.panel-red .panel-heading {
+	border-bottom: 1px solid rgba(255, 255, 255, .2);
+}
+
+.panel-blue .text-muted,
+.panel-teal .text-muted,
+.panel-orange .text-muted,
+.panel-red .text-muted { 
+	color: rgba(255, 255, 255, .5); 
+}
+
+.dark-overlay {
+	background: rgba(0, 0, 0, .05);
+	text-align: center;
+}
+
+.widget-left {
+	height: 80px;
+	padding-top: 15px;
+	text-align: center;
+	border-top-left-radius: 4px;
+	border-bottom-left-radius: 4px;
+}
+
+
+
+@media (max-width: 768px) {
+	.widget-left {
+	border-top-left-radius: 4px;
+	border-top-right-radius: 4px;
+	border-bottom-left-radius: 0px;
+	border-bottom-right-radius: 0px;
+	}
+}
+
+
+
+.panel-red .widget-left { background: #f9243f; color: #fff; }
+
+
+
+
+/*Calendar Widget*/
+
+#calendar, .timedatepicker-inline {
+	width: 100%;
+}
+
+#calendar table {
+	width: 100%;
+}
+
+.timedatepicker table tr td.old,
+.timedatepicker table tr td.new {
+	color: rgba(255, 255, 255, .50);
+}
+
+.timedatepicker table tr td.active,
+.timedatepicker table tr td.active:hover,
+.timedatepicker table tr td.active.disabled,
+.timedatepicker table tr td.active.disabled:hover,
+.timedatepicker table tr td.active:hover,
+.timedatepicker table tr td.active:hover:hover,
+.timedatepicker table tr td.active.disabled:hover,
+.timedatepicker table tr td.active.disabled:hover:hover,
+.timedatepicker table tr td.active:focus,
+.timedatepicker table tr td.active:hover:focus,
+.timedatepicker table tr td.active.disabled:focus,
+.timedatepicker table tr td.active.disabled:hover:focus,
+.timedatepicker table tr td.active:active,
+.timedatepicker table tr td.active:hover:active,
+.timedatepicker table tr td.active.disabled:active,
+.timedatepicker table tr td.active.disabled:hover:active,
+.timedatepicker table tr td.active.active,
+.timedatepicker table tr td.active:hover.active,
+.timedatepicker table tr td.active.disabled.active,
+.timedatepicker table tr td.active.disabled:hover.active,
+.open .dropdown-toggle.timedatepicker table tr td.active,
+.open .dropdown-toggle.timedatepicker table tr td.active:hover,
+.open .dropdown-toggle.timedatepicker table tr td.active.disabled,
+.open .dropdown-toggle.timedatepicker table tr td.active.disabled:hover {
+	color: #ffffff;
+	background-color: rgba(0, 0, 0, .5);
+	border-color: #285e8e;
+}
+
+.timedatepicker table tr td span:hover,
+.timedatepicker thead tr:first-child th:hover,
+.timedatepicker tfoot tr th:hover,
+.timedatepicker table tr td.day:hover,
+.timedatepicker table tr td.day.focused {
+	background: rgba(0, 0, 0, 0.25);
+}
+
+.panel-heading .glyphicon {
+	margin-right: 10px;
+}
+
+
+
+
+/*Icons*/
+
+
+
+
+.breadcrumb .glyph {
+	height: 14px;
+	width: 14px;
+	margin: -2px 0 0 0;
+	stroke-width: 4px;
+}
+
+.alert .glyph, .panel-heading .glyph {
+	width: 26px;
+	height: 26px;
+	margin: 0 10px 0 0;
+	stroke-width: 2px;
+}
+
+.panel-widget .glyph {
+	stroke-width: 2px;
+}
+
+
+/*Icon Grid*/
+
+.icon-grid div {
+	border: 1px solid #ddd;
+	margin: 0 0 -1px -1px;
+	text-align: center;
+	padding: 10px 0 20px 0;
+}
+
+.icon-grid svg {
+	width: 35%;
+	display: block;
+	margin: 0 auto;
+}
+
+.icon-grid h4 {
+	display: none;
+}
+
+.icon-grid pre {
+	margin: 10px 10px -10px 10px;
+	border-radius: 0;
+	font-size: 10px;
+	border-color: #ddd;
+	height: 65px;
+	overflow: scroll;
+}
+
+
+
+
+
+
+
+
+
